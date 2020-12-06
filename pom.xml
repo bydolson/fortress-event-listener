@@ -43,7 +43,7 @@
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/fortress/kauri/eventlistener/;publish=1</url>
+            <url>https://api.bintray.com/maven/consensys/kauri/eventlistener/;publish=1</url>
         </repository>
     </distributionManagement>
 
@@ -57,8 +57,8 @@
             <url>https://dl.bintray.com/ethereum/maven/</url>
         </repository>
         <repository>
-            <id>bintray-fortress-kauri</id>
-            <url>https://fortress.bintray.com/kauri</url>
+            <id>bintray-consensys-kauri</id>
+            <url>https://consensys.bintray.com/kauri</url>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -71,8 +71,8 @@
             <url>https://dl.bintray.com/ethereum/maven/</url>
         </pluginRepository>
         <pluginRepository>
-            <id>bintray-fortress-kauri</id>
-            <url>https://fortress.bintray.com/kauri</url>
+            <id>bintray-consensys-kauri</id>
+            <url>https://consensys.bintray.com/kauri</url>
         </pluginRepository>
     </pluginRepositories>
 </project>

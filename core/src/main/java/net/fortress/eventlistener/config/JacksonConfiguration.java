@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.jsontype.NamedType;
 import net.fortress.eventlistener.dto.message.*;
 import net.fortress.eventlistener.integration.mixin.PageMixIn;
-import net.fortress.kafkadl.message.RetryableMessage;
+import net.consensys.kafkadl.message.RetryableMessage;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.Page;

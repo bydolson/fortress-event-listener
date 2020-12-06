@@ -33,7 +33,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>net.fortress</groupId>
+            <groupId>net.consensys</groupId>
             <artifactId>kafka-deadletter</artifactId>
             <version>${kafka-deadletter.version}</version>
         </dependency>

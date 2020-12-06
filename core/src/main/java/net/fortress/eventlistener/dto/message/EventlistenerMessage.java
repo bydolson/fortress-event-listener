@@ -17,7 +17,7 @@ package net.fortress.eventlistener.dto.message;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import net.fortress.kafkadl.message.RetryableMessage;
+import net.consensys.kafkadl.message.RetryableMessage;
 
 /**
  * A message interface to be broadcast from the Eventlistener application.
