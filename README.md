@@ -1,6 +1,7 @@
-# Fotress Event Listener
+# Fortress Event Listener
 Event listener that listens for security related predefined set of events from the Ethereum network, and broadcasts these events for use by Fortress Live Security Audit Engine and Fortress Threat Detection and Response Engine. Built on [Eventeum](https://github.com/eventeum/eventeum). Fortress creates smart contract data cache for security related events and transactions using events collected to [MongoDB](https://www.mongodb.com/) through [Kafka](https://kafka.apache.org/).
 
+Fortress Event Listener has dependencies such as Kafka, MongoDB and Parity Dev Node. The easiest way to running locally is to use docker-compose script from the server folder. For production plase update the properties file as we write in Configuration section.
 ## Installation
 
 ### Prerequisites
@@ -29,7 +30,7 @@ $ docker push fortressfoundation/eventlistener:latest
 ## How To Use
 Once docker container is running, eventlistener will start listening for predefined events and transactions to write them to mongodb database. Audit and tdr engines will use this data. If you want to change configuration or manually register events/transactions read next sections.
 
-## Configuring Nodes
+## Configuration
 Nodes can be configured in the properties file.
 
 ```yaml
