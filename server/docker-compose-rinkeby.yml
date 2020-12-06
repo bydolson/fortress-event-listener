@@ -2,7 +2,7 @@ version: '3'
 
 services:
   eventlistener:
-    image: eventeum/eventeum:latest
+    image: fortressfoundation/eventlistener:latest
     ports:
     - "8060:8060"
     depends_on:

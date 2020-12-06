@@ -15,7 +15,7 @@
 package net.fortress.eventlistenerserver.config;
 
 import net.fortress.eventlistener.annotation.ConditionalOnKafkaRequired;
-import net.fortress.kafkadl.annotation.EnableKafkaDeadLetter;
+import net.consensys.kafkadl.annotation.EnableKafkaDeadLetter;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
